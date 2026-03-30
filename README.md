@@ -1,0 +1,1 @@
+RUn with python .\train_pt.py --config .\inpaint.yml --train_flist .\data\celeba\train_shuffled.flist --val_flist .\data\celeba\validation_static_view.flist --log_dir .\logs\deepfillv2_pt_celeba256 --sample_every 1000 --print_every 50 --pin_batch_staging --pin_visual_staging
